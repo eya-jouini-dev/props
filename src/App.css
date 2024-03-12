@@ -1,5 +1,8 @@
+
+
 .App {
   text-align: center;
+  background-color: #b1c6f0;
 }
 
 .App-logo {
@@ -35,4 +38,12 @@
   to {
     transform: rotate(360deg);
   }
+}
+.App h1{
+  color:rgb(245, 131, 131);
+ 
+}
+.App h1:hover{
+  transform: scale(1.05) ;
+  transition: transform 0.3s ease-in-out ;
 }
